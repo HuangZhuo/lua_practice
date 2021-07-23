@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "launch",
+            "type": "lua",
+            "request": "launch",
+            "stopOnEntry": false,
+            "program": "${workspaceFolder}/main.lua",
+            "cwd": "${workspaceFolder}",
+            "path": "${workspaceFolder}/?.lua;${workspaceFolder}/?/init.lua;3rd/share/lua/5.1/?.lua;3rd/share/lua/5.1/?/init.lua",
+            "cpath": "${workspaceFolder}/?.dll;3rd/lib/lua/5.1/?.dll",
+            "arg": [
+                "2021-07-22"
+            ],
+            "luaVersion": "5.1",
+            "consoleCoding": "none"
+        }
+    ]
+}

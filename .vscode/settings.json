@@ -1,0 +1,12 @@
+{
+    // "terminal.integrated.profiles.windows": {
+    //     "cmder": {
+    //         "path": "C:\\WINDOWS\\System32\\cmd.exe",
+    //         "args": [
+    //             "/K",
+    //             "chcp 65001 >nul"
+    //         ]
+    //     }
+    // }
+    // "files.encoding": "gb2312"
+}
