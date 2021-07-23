@@ -12,8 +12,8 @@
             "arg": [
                 "2021-07-22"
             ],
-            "luaVersion": "5.1",
-            "consoleCoding": "none"
+            "luaArch": "x86",
+            "luaVersion": "5.1"
         }
     ]
 }
