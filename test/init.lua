@@ -1,4 +1,5 @@
-print('test')
+-- init penlight
+require('pl')
 
-local app = require("pl.app")
-print(app.script_name())
+-- test csv parce
+require('test.csv')
