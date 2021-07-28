@@ -3,3 +3,4 @@
 
 :: install 3rd libs
 luarocks install penlight --tree 3rd
+luarocks install dkjson --tree 3rd
