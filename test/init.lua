@@ -2,11 +2,33 @@
 require('pl')
 require('dkjson')
 
--- test csv parce
--- require('test.csv')
+--[[ 
+    simple test wrapper func
+    @tag    if a tag begins with '>' ,the func will call immediately
+    @func   function to be tested
+    return  wrapper function
+]]
+function TEST(tag, func, ...)
+    local exenow = false
+    if string.find(tag, '^>') then
+        exenow = true
+        tag = string.gsub(tag, '^>', '', 1)
+    end
 
--- test module
+    local args = { ... }
+    local wrap_func = function()
+        print(string.format('---BEGIN TEST OF [%s]', tag))
+        local ret = func(unpack(args))
+        print(string.format('---FINISH TEST OF [%s]:%s', tag, tostring(ret)))
+    end
+    if exenow then
+        wrap_func()
+    else
+        return wrap_func
+    end
+end
+
+-- require('test.csv')-- test csv parce
 -- require('test.module')
-
--- test json
 -- require("test.json")
+require('test.string')
