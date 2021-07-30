@@ -15,6 +15,7 @@
         "**/CVS": true,
         "**/.DS_Store": true
     },
+    "luaide-lite-up.enableDiagnostic": false,
     "[lua]": {
         "editor.defaultFormatter": "mayishidai.luaide-lite-up"
     },
@@ -22,6 +23,7 @@
     "terminal.integrated.automationShell.windows": "cmd",
     "terminal.integrated.gpuAcceleration": "off",
     "Lua.runtime.version": "Lua 5.1",
+    "Lua.diagnostics.enable": false,
     "Lua.diagnostics.globals": [
         "utils",
         "stringx",

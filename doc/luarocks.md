@@ -27,7 +27,7 @@ search **luarocks add tree** with `bing`
 [Using LuaRocks to install packages in the current directory](https://leafo.net/guides/customizing-the-luarocks-tree.html)
 
 
-## Error
+## Tips
 ### 加载`lfs`模块报错
 > error loading module 'lfs' from file '3rd/lib/lua/5.1/lfs.dll':...
 

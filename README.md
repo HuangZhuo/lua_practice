@@ -6,13 +6,15 @@
 - 保持可移植和易部署
 
 todo
-- unit test
-- try lua-binding
+- try unit test framework
+- try C API
 - [create own rocks](https://github.com/luarocks/luarocks/wiki/Creating-a-rock)
 
-## VSCode 插件
+## VSCode! YYDS
 
-| 插件                | 用途                   |
-| ------------------- | ---------------------- |
-| yinfei.luahelper    | 提供编码辅助功能       |
-| actboy168.lua-debug | 提供解释器以及调试功能 |
+| 插件                                                         | 用途                   |
+| ------------------------------------------------------------ | ---------------------- |
+| [sumneko.lua](https://github.com/sumneko/lua-language-server) | 提供编码辅助功能       |
+| [actboy168.lua-debug](https://github.com/actboy168/lua-debug) | 提供解释器以及调试功能 |
+| [mayishidai.luaide-lite-up](https://github.com/mayishidai/luaide-lite) | 代码格式化             |
+
