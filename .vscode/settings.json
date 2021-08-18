@@ -16,6 +16,7 @@
         "**/.DS_Store": true
     },
     "luaide-lite-up.enableDiagnostic": false,
+    "luaide-lite-up.debugLanguageServer": false,
     "[lua]": {
         "editor.defaultFormatter": "mayishidai.luaide-lite-up"
     },

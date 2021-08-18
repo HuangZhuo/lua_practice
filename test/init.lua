@@ -31,4 +31,6 @@ end
 -- require('test.csv')-- test csv parce
 -- require('test.module')
 -- require("test.json")
-require('test.string')
+-- require('test.string')
+-- require('test.env')
+-- require('test.number')
