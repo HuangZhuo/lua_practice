@@ -34,3 +34,4 @@ end
 -- require('test.string')
 -- require('test.env')
 -- require('test.number')
+-- require('test.iter')
