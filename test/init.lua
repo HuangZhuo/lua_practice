@@ -34,4 +34,6 @@ end
 -- require('test.string')
 -- require('test.env')
 -- require('test.number')
--- require('test.iter')
+require('test.iter')
+-- require('test.thread')
+-- require('test.datetime')

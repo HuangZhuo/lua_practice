@@ -109,3 +109,11 @@ TEST('table_walk', function()
     table_walk({ 1, 2, 3 }, print)
     return true
 end)
+
+TEST("next", function()
+    local t = { a = 1, b = 2 }
+    print(next(t)) -- a,1
+    print(next(t, 'a')) -- b,2
+    print(next(t, 'b')) -- nil
+    return true
+end)
